@@ -1,0 +1,21 @@
+# Virtual Environment
+venv/
+
+# Python Cache Files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+*.log
+
+# OS Files
+.DS_Store
+
+# IDE Files
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Other Unwanted Files
+*.env
