@@ -1,21 +1,52 @@
-# Virtual Environment
-venv/
-
-# Python Cache Files
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# Logs
-*.log
+# Virtual Environment
+venv/
+ENV/
+env/
+.env/
+.venv/
 
-# OS Files
-.DS_Store
-
-# IDE Files
+# IDE
+.idea/
 .vscode/
+*.swp
+*.swo
 *.sublime-project
 *.sublime-workspace
 
-# Other Unwanted Files
-*.env
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+data/raw/*
+data/processed/*
+models/*.pth
+*.log
+.env
